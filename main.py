@@ -3,7 +3,6 @@ import logging
 import os
 import sys
 import time
-import ConfigParser
 
 from datetime import datetime
 from geopy.distance import vincenty
@@ -24,34 +23,23 @@ if __name__ == '__main__':
     logging.getLogger("pgoapi.rpc_api").setLevel(logging.WARNING)
 
     # used for local testing without starting up heroku
-  #  env = {}
-  #  if os.path.exists('.env'):
-  #      with open('.env', 'r') as fp:
-  #          for line in fp:
-  #              parts = line.split('=')
-  #              env[parts[0].strip()] = parts[1].strip()
+    env = {}
+    if os.path.exists('.env'):
+        with open('.env', 'r') as fp:
+            for line in fp:
+                parts = line.split('=')
+                env[parts[0].strip()] = parts[1].strip()
 
-  # auth_service = str(os.environ.get('AUTH_SERVICE', env.get('AUTH_SERVICE')))
-  # username = str(os.environ.get('USERNAME', env.get('USERNAME')))
-  # password = str(os.environ.get('PASSWORD', env.get('PASSWORD')))
-  # location_name = str(os.environ.get('LOCATION_NAME', env.get('LOCATION_NAME')))
-  # rarity_limit = int(os.environ.get('RARITY_LIMIT', env.get('RARITY_LIMIT')))
-  # slack_webhook_url = str(os.environ.get('SLACK_WEBHOOK_URL', env.get('SLACK_WEBHOOK_URL')))
-
-    configParser = ConfigParser.RawConfigParser()
-    configFilePath = r'ps.config'
-    configParser.read(configFilePath)
-
-    auth_service = configParser.get('ps-config','AUTH_SERVICE')
-    username = configParser.get('ps-config','USERNAME')
-    password = configParser.get('ps-config','PASSWORD')
-    location_name = configParser.get('ps-config','LOCATION_NAME')
-    rarity_limit = 2
-    slack_webhook_url = configParser.get('ps-config','SLACK_WEBHOOK_URL')
+    auth_service = str(os.environ.get('AUTH_SERVICE', env.get('AUTH_SERVICE')))
+    username = str(os.environ.get('USERNAME', env.get('USERNAME')))
+    password = str(os.environ.get('PASSWORD', env.get('PASSWORD')))
+    location_name = str(os.environ.get('LOCATION_NAME', env.get('LOCATION_NAME')))
+    rarity_limit = int(os.environ.get('RARITY_LIMIT', env.get('RARITY_LIMIT')))
+    slack_webhook_url = str(os.environ.get('SLACK_WEBHOOK_URL', env.get('SLACK_WEBHOOK_URL')))
 
     # const vars
     step_size = 0.0025
-    step_limit = 7
+    step_limit = 5
 
     # debug vars, used to test slack integration w/o waiting
     use_cache = False

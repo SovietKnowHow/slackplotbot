@@ -1,16 +1,5 @@
 [
     {
-        "disappear_time": 1469652869212, 
-        "name": "Shellder", 
-        "pokemon_id": 90, 
-        "spawnpoint_id": "881c10cff07", 
-        "longitude": -86.44842069082233, 
-        "rarity": 3, 
-        "key": 18283397807799365677, 
-        "latitude": 43.95583752423018, 
-        "encounter_id": "MTgyODMzOTc4MDc3OTkzNjU2Nzc="
-    }, 
-    {
         "disappear_time": 1469653348460, 
         "name": "Rattata", 
         "pokemon_id": 19, 
@@ -20,17 +9,6 @@
         "key": 11289134001962322317, 
         "latitude": 43.95589634005954, 
         "encounter_id": "MTEyODkxMzQwMDE5NjIzMjIzMTc="
-    }, 
-    {
-        "disappear_time": 1469652816004, 
-        "name": "Pidgey", 
-        "pokemon_id": 16, 
-        "spawnpoint_id": "881c10cffa9", 
-        "longitude": -86.44849973503325, 
-        "rarity": 1, 
-        "key": 11081704947678425261, 
-        "latitude": 43.955839975563194, 
-        "encounter_id": "MTEwODE3MDQ5NDc2Nzg0MjUyNjE="
     }, 
     {
         "disappear_time": 1469653104228, 
@@ -44,6 +22,17 @@
         "encounter_id": "MTA3Mzc4MjIxNzQxMDQ3OTUxNjU="
     }, 
     {
+        "disappear_time": 1469653916188, 
+        "name": "Rattata", 
+        "pokemon_id": 19, 
+        "spawnpoint_id": "881c10cf62f", 
+        "longitude": -86.44581216180029, 
+        "rarity": 1, 
+        "key": 1139894149267412845, 
+        "latitude": 43.95538459766158, 
+        "encounter_id": "MTEzOTg5NDE0OTI2NzQxMjg0NQ=="
+    }, 
+    {
         "disappear_time": 1469653324780, 
         "name": "Krabby", 
         "pokemon_id": 98, 
@@ -53,6 +42,17 @@
         "key": 3198916241801712413, 
         "latitude": 43.952822216890894, 
         "encounter_id": "MzE5ODkxNjI0MTgwMTcxMjQxMw=="
+    }, 
+    {
+        "disappear_time": 1469653849556, 
+        "name": "Drowzee", 
+        "pokemon_id": 96, 
+        "spawnpoint_id": "881c10c4fb5", 
+        "longitude": -86.44715596646266, 
+        "rarity": 1, 
+        "key": 6081789347693492973, 
+        "latitude": 43.95259900365701, 
+        "encounter_id": "NjA4MTc4OTM0NzY5MzQ5Mjk3Mw=="
     }, 
     {
         "disappear_time": 1469653390268, 
@@ -77,6 +77,17 @@
         "encounter_id": "MTI5OTAzNDA3MjUyMDYzOTM4Njk="
     }, 
     {
+        "disappear_time": 1468878815231, 
+        "name": "Drowzee", 
+        "pokemon_id": 96, 
+        "spawnpoint_id": "881c10dbab1", 
+        "longitude": -86.45181947911067, 
+        "rarity": 1, 
+        "key": 12942794747383399357, 
+        "latitude": 43.95296680007553, 
+        "encounter_id": "MTI5NDI3OTQ3NDczODMzOTkzNTc="
+    }, 
+    {
         "disappear_time": 1469653116044, 
         "name": "Kakuna", 
         "pokemon_id": 14, 
@@ -99,26 +110,15 @@
         "encounter_id": "MTUwMzQzNzExODQzMjA5NzY4MTM="
     }, 
     {
-        "disappear_time": 1469652862812, 
+        "disappear_time": 1469653829372, 
         "name": "Weedle", 
         "pokemon_id": 13, 
-        "spawnpoint_id": "881c10d178f", 
-        "longitude": -86.45174044014549, 
+        "spawnpoint_id": "881c10d1647", 
+        "longitude": -86.45245178633537, 
         "rarity": 1, 
-        "key": 10542089516320006797, 
-        "latitude": 43.959809058244176, 
-        "encounter_id": "MTA1NDIwODk1MTYzMjAwMDY3OTc="
-    }, 
-    {
-        "disappear_time": 1469653038268, 
-        "name": "Drowzee", 
-        "pokemon_id": 96, 
-        "spawnpoint_id": "881c10d2227", 
-        "longitude": -86.45039675862718, 
-        "rarity": 1, 
-        "key": 5472223740860050941, 
-        "latitude": 43.96058574224603, 
-        "encounter_id": "NTQ3MjIyMzc0MDg2MDA1MDk0MQ=="
+        "key": 10064471149028554477, 
+        "latitude": 43.95990548977743, 
+        "encounter_id": "MTAwNjQ0NzExNDkwMjg1NTQ0Nzc="
     }, 
     {
         "disappear_time": 1469653235084, 
@@ -141,17 +141,6 @@
         "key": 8947358676289317965, 
         "latitude": 43.96053589184336, 
         "encounter_id": "ODk0NzM1ODY3NjI4OTMxNzk2NQ=="
-    }, 
-    {
-        "disappear_time": 1469652807916, 
-        "name": "Rattata", 
-        "pokemon_id": 19, 
-        "spawnpoint_id": "881c10cbf63", 
-        "longitude": -86.4439940156956, 
-        "rarity": 1, 
-        "key": 16644369911091640509, 
-        "latitude": 43.960759067974614, 
-        "encounter_id": "MTY2NDQzNjk5MTEwOTE2NDA1MDk="
     }, 
     {
         "disappear_time": 1468878815231, 
@@ -231,28 +220,6 @@
         "encounter_id": "OTg2MzQ0MTA0NzIzOTkzNDIzNw=="
     }, 
     {
-        "disappear_time": 1469652937012, 
-        "name": "Pidgey", 
-        "pokemon_id": 16, 
-        "spawnpoint_id": "881c10c6b15", 
-        "longitude": -86.44312444420754, 
-        "rarity": 1, 
-        "key": 13330216053562498717, 
-        "latitude": 43.95076252533012, 
-        "encounter_id": "MTMzMzAyMTYwNTM1NjI0OTg3MTc="
-    }, 
-    {
-        "disappear_time": 1469652861060, 
-        "name": "Electabuzz", 
-        "pokemon_id": 125, 
-        "spawnpoint_id": "881c10c3ee1", 
-        "longitude": -86.44494262190499, 
-        "rarity": 4, 
-        "key": 17111361020956189165, 
-        "latitude": 43.9498516777003, 
-        "encounter_id": "MTcxMTEzNjEwMjA5NTYxODkxNjU="
-    }, 
-    {
         "disappear_time": 1469653275684, 
         "name": "Weedle", 
         "pokemon_id": 13, 
@@ -262,6 +229,17 @@
         "key": 434757688452576461, 
         "latitude": 43.95069548361953, 
         "encounter_id": "NDM0NzU3Njg4NDUyNTc2NDYx"
+    }, 
+    {
+        "disappear_time": 1469653722852, 
+        "name": "Krabby", 
+        "pokemon_id": 98, 
+        "spawnpoint_id": "881c10c3ef9", 
+        "longitude": -86.44470547203842, 
+        "rarity": 1, 
+        "key": 13896240172332049869, 
+        "latitude": 43.949769906921894, 
+        "encounter_id": "MTM4OTYyNDAxNzIzMzIwNDk4Njk="
     }, 
     {
         "disappear_time": 1469653417164, 
@@ -297,6 +275,28 @@
         "encounter_id": "MzEzODA1OTM3NDk5MjU1NjA2MQ=="
     }, 
     {
+        "disappear_time": 1469653852580, 
+        "name": "Eevee", 
+        "pokemon_id": 133, 
+        "spawnpoint_id": "881c10d9ff1", 
+        "longitude": -86.45426962507547, 
+        "rarity": 2, 
+        "key": 13033307438224955917, 
+        "latitude": 43.95534916292485, 
+        "encounter_id": "MTMwMzMzMDc0MzgyMjQ5NTU5MTc="
+    }, 
+    {
+        "disappear_time": 1469653896524, 
+        "name": "Oddish", 
+        "pokemon_id": 43, 
+        "spawnpoint_id": "881c10d3e2b", 
+        "longitude": -86.45347926852529, 
+        "rarity": 1, 
+        "key": 3077325032874476493, 
+        "latitude": 43.96030928052735, 
+        "encounter_id": "MzA3NzMyNTAzMjg3NDQ3NjQ5Mw=="
+    }, 
+    {
         "disappear_time": 1469653118356, 
         "name": "Eevee", 
         "pokemon_id": 133, 
@@ -330,17 +330,6 @@
         "encounter_id": "MTI5OTM2NzAwNDM2MjE5NDEyNjE="
     }, 
     {
-        "disappear_time": 1469652809452, 
-        "name": "Weedle", 
-        "pokemon_id": 13, 
-        "spawnpoint_id": "881c10cb7a3", 
-        "longitude": -86.44351970584786, 
-        "rarity": 1, 
-        "key": 5206467795284561053, 
-        "latitude": 43.96267848893221, 
-        "encounter_id": "NTIwNjQ2Nzc5NTI4NDU2MTA1Mw=="
-    }, 
-    {
         "disappear_time": 1469653471180, 
         "name": "Rattata", 
         "pokemon_id": 19, 
@@ -363,17 +352,6 @@
         "encounter_id": "MTQ5OTYxNDc2OTIzMzI4MDA2Njk="
     }, 
     {
-        "disappear_time": 1469652806172, 
-        "name": "Weedle", 
-        "pokemon_id": 13, 
-        "spawnpoint_id": "881c10caf8f", 
-        "longitude": -86.44106903335786, 
-        "rarity": 1, 
-        "key": 9701122618920674909, 
-        "latitude": 43.96237918812341, 
-        "encounter_id": "OTcwMTEyMjYxODkyMDY3NDkwOQ=="
-    }, 
-    {
         "disappear_time": 1469653394500, 
         "name": "Rattata", 
         "pokemon_id": 19, 
@@ -385,6 +363,28 @@
         "encounter_id": "ODk3NDg4NzYzMzI5Njc1MDM5Nw=="
     }, 
     {
+        "disappear_time": 1469653828452, 
+        "name": "Weedle", 
+        "pokemon_id": 13, 
+        "spawnpoint_id": "881c10c72b1", 
+        "longitude": -86.44130620045588, 
+        "rarity": 1, 
+        "key": 10145216055765841597, 
+        "latitude": 43.950482816490094, 
+        "encounter_id": "MTAxNDUyMTYwNTU3NjU4NDE1OTc="
+    }, 
+    {
+        "disappear_time": 1469653921500, 
+        "name": "Pidgey", 
+        "pokemon_id": 16, 
+        "spawnpoint_id": "881c10c72af", 
+        "longitude": -86.44138525590552, 
+        "rarity": 1, 
+        "key": 13748939836105045165, 
+        "latitude": 43.950485273078726, 
+        "encounter_id": "MTM3NDg5Mzk4MzYxMDUwNDUxNjU="
+    }, 
+    {
         "disappear_time": 1468878815231, 
         "name": "Pidgey", 
         "pokemon_id": 16, 
@@ -394,17 +394,6 @@
         "key": 7512835066406431597, 
         "latitude": 43.950477903137056, 
         "encounter_id": "NzUxMjgzNTA2NjQwNjQzMTU5Nw=="
-    }, 
-    {
-        "disappear_time": 1469652840884, 
-        "name": "Weedle", 
-        "pokemon_id": 13, 
-        "spawnpoint_id": "881c10c6b65", 
-        "longitude": -86.44288728572496, 
-        "rarity": 1, 
-        "key": 17012679165504571277, 
-        "latitude": 43.95082956639768, 
-        "encounter_id": "MTcwMTI2NzkxNjU1MDQ1NzEyNzc="
     }, 
     {
         "disappear_time": 1469653196556, 
@@ -440,28 +429,6 @@
         "encounter_id": "MzIyNDgxOTQzMjE4MDE0ODcxNw=="
     }, 
     {
-        "disappear_time": 1469652829724, 
-        "name": "Magikarp", 
-        "pokemon_id": 129, 
-        "spawnpoint_id": "881c10dd2f7", 
-        "longitude": -86.44968538320994, 
-        "rarity": 1, 
-        "key": 8271117725330081341, 
-        "latitude": 43.94784090683903, 
-        "encounter_id": "ODI3MTExNzcyNTMzMDA4MTM0MQ=="
-    }, 
-    {
-        "disappear_time": 1469653085044, 
-        "name": "Rattata", 
-        "pokemon_id": 19, 
-        "spawnpoint_id": "881c10d8225", 
-        "longitude": -86.4578260749598, 
-        "rarity": 1, 
-        "key": 2066026123107484365, 
-        "latitude": 43.955236017191524, 
-        "encounter_id": "MjA2NjAyNjEyMzEwNzQ4NDM2NQ=="
-    }, 
-    {
         "disappear_time": 1468878815231, 
         "name": "Rattata", 
         "pokemon_id": 19, 
@@ -493,17 +460,6 @@
         "key": 12070965794749241901, 
         "latitude": 43.958458208015955, 
         "encounter_id": "MTIwNzA5NjU3OTQ3NDkyNDE5MDE="
-    }, 
-    {
-        "disappear_time": 1469652888620, 
-        "name": "Rattata", 
-        "pokemon_id": 19, 
-        "spawnpoint_id": "881c10d5d33", 
-        "longitude": -86.45671965099393, 
-        "rarity": 1, 
-        "key": 7345031724054695469, 
-        "latitude": 43.96078154791443, 
-        "encounter_id": "NzM0NTAzMTcyNDA1NDY5NTQ2OQ=="
     }, 
     {
         "disappear_time": 1469653202388, 
