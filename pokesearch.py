@@ -120,7 +120,7 @@ def generate_spiral(starting_lat, starting_lng, step_size, step_limit):
         d = -1 * d
         m = m + 1
 
-def get_cell_ids(lat, long, radius = 10):
+def get_cell_ids(lat, long, radius = 20):
     origin = CellId.from_lat_lng(LatLng.from_degrees(lat, long)).parent(15)
     walk = [origin.id()]
     right = origin.next()
