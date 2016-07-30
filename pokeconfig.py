@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 class Pokeconfig:
     # constants
     WALK_MILES_PER_SECOND = 0.0008333 # assumes 3mph (or 0.0008333 miles per second) walking speed
-    WALK_METERS_PER_SECOND = 4.4704 # conversion from 3mph
+    WALK_METERS_PER_SECOND = 2.2352 # conversion from 3mph
     EXPIRE_BUFFER_SECONDS = 5 # if a pokemon expires in 5 seconds or less (includes negative/stale pokemon), dont send it
     DEFAULT_NUM_STEPS = 5
     DEFAULT_DISTANCE_UNIT = 'miles'
